@@ -1,7 +1,8 @@
 // import { DisplayClear } from "./components/1-display-clear-useState/DisplayClear";
 // import ToggleChallenge from "./components/2-toggle-challenge/ToggleChallenge";
 // import { LoginLogout } from './components/3-login-logout-challenge/LoginLogout';
-import { ControlledInput } from './components/4-controlled-Input-challenge/ControlledInput';
+// import { ControlledInput } from './components/4-controlled-Input-challenge/ControlledInput';
+import { MultipleInputs } from "./components/5-multiple-inputs/MultipleInputs";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       {/* <DisplayClear /> */}
       {/* <ToggleChallenge /> */}
       {/* <LoginLogout /> */}
-      <ControlledInput />
+      {/* <ControlledInput /> */}
+      <MultipleInputs />
     </div>
   );
 }
