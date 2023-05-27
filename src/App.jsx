@@ -2,7 +2,7 @@
 // import ToggleChallenge from "./components/2-toggle-challenge/ToggleChallenge";
 // import { LoginLogout } from './components/3-login-logout-challenge/LoginLogout';
 // import { ControlledInput } from './components/4-controlled-Input-challenge/ControlledInput';
-import { MultipleInputs } from "./components/5-multiple-inputs/MultipleInputs";
+import { OtherInputs } from "./components/6-other-inputs/OtherInputs";
 
 function App() {
   return (
@@ -12,7 +12,8 @@ function App() {
       {/* <ToggleChallenge /> */}
       {/* <LoginLogout /> */}
       {/* <ControlledInput /> */}
-      <MultipleInputs />
+      {/* <MultipleInputs /> */}
+      <OtherInputs />
     </div>
   );
 }
