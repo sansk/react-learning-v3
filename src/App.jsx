@@ -3,19 +3,21 @@
 // import { LoginLogout } from './components/3-login-logout-challenge/LoginLogout';
 // import { ControlledInput } from './components/4-controlled-Input-challenge/ControlledInput';
 // import { OtherInputs } from "./components/6-other-inputs/OtherInputs";
-import { UncontrolledInputs } from "./components/7-formdataAPI-uncontrolledInputs/UncontrolledInputs";
+// import { UncontrolledInputs } from "./components/7-formdataAPI-uncontrolledInputs/UncontrolledInputs";
+import { Navbar } from "./components/8-contextapi-challenge/Navbar";
 
 function App() {
   return (
-    <div className="container">
-      <h1>React Examples</h1>
+    <div>
+      {/* <h1>React Examples</h1> */}
       {/* <DisplayClear /> */}
       {/* <ToggleChallenge /> */}
       {/* <LoginLogout /> */}
       {/* <ControlledInput /> */}
       {/* <MultipleInputs /> */}
       {/* <OtherInputs /> */}
-      <UncontrolledInputs />
+      {/* <UncontrolledInputs /> */}
+      <Navbar />
     </div>
   );
 }
