@@ -4,7 +4,8 @@
 // import { ControlledInput } from './components/4-controlled-Input-challenge/ControlledInput';
 // import { OtherInputs } from "./components/6-other-inputs/OtherInputs";
 // import { UncontrolledInputs } from "./components/7-formdataAPI-uncontrolledInputs/UncontrolledInputs";
-import { Navbar } from "./components/8-contextapi-challenge/Navbar";
+// import { Navbar } from "./components/8-contextapi-challenge/Navbar";
+import { DisplayClear } from "./components/9-useReducer-challenge/DisplayClear";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       {/* <MultipleInputs /> */}
       {/* <OtherInputs /> */}
       {/* <UncontrolledInputs /> */}
-      <Navbar />
+      {/* <Navbar /> */}
+      <DisplayClear />
     </div>
   );
 }
