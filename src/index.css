@@ -338,3 +338,28 @@ ul {
   text-transform: capitalize;
   display: inline-block;
 }
+
+/*
+=============== 
+Axios Tutorial
+===============
+*/
+
+.text-center {
+  text-align: center;
+}
+
+.btn-block {
+  margin-top: 0.75rem;
+}
+
+.section {
+  width: 90vw;
+  max-width: var(--fixed-width);
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+.dad-joke {
+  margin-top: 1rem;
+}
